@@ -1,0 +1,168 @@
+
+ul{
+    list-style-type: none;
+    height: auto;
+    position: relative;
+    padding: 12px 12px;
+    margin: 0px;
+    color:black;
+}
+.navbar{
+	width:1350px;
+}
+
+.navbar li{
+	display: inline;
+	position: relative;
+	padding: 0px 9px 0px 9px;
+	float:right;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+
+a:hover{
+	text-decoration: underline;
+
+}
+
+.signin{
+	font-color: white;
+	line-height: 27px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	top:-5px;
+	background-color: #4387fd;
+	height: 28px;
+	width: 45px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 2px;
+}
+
+.refsignin{color:white; cursor: default;}
+
+.refsignin:hover{text-decoration: none;}
+
+.signin:active{background-color:#4379ef; text-decoration: none}
+
+.signin:hover{
+	
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.appicon{
+	padding-top: 2px;
+}
+
+.appicon a:hover{
+	cursor:default;
+}
+
+.logo{
+	margin-top:80px;
+	margin-left: 541px;
+	padding-top: 80px;
+	
+}
+
+.searchbar{
+	height:88px;
+	width:770px;
+	/*position:relative;
+	right:-382px;
+	bottom:-22px;*/
+	padding: 0 284px 0 284px;
+}
+
+.inputbox input{
+	position: relative;
+	width:570px; 
+	height:22px;
+	padding: 3px 0 2px 0;
+	right: -105px;
+	bottom: -19px;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #D9D9D9;
+	border-right: 1px solid #D9D9D9;
+	border-top: 1px solid silver ;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.mic{
+	position :relative;
+	bottom: -25px;
+	right:-77px;
+}
+
+.submitbutton1,.submitbutton2{
+	position: relative;
+	width:96px;
+	height: 29px;
+	padding: 0px 8px;
+	border:1px;
+	margin:11px 8px;
+	background-color: #f5f5f5; 
+	border-radius: 2px;
+	border: 1px solid #dcdcdc ;
+	cursor: default;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	right:-266px;
+	bottom:-10px;
+	color: #494444;
+}
+
+.submitbutton1:hover,.submitbutton2:hover{
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.submitbutton2{
+	width:111px;
+	height:29px;
+}
+
+.footer{
+	position: relative;
+	background-color: #F2F2F2;
+	height:43px;
+	bottom: -245px;
+	left:-14px;
+	right:-14px;
+	width:1370px;
+	margin:0px;
+	padding: 0px;
+	border: 5px black;
+
+}
+
+.footer ul li{
+	position: relative;
+	bottom: 0px;
+	left:-9px;
+	padding: 0px 6px 0px 6px;
+	display: inline;
+	font-size: 13px;
+	font-family: Arial;
+	margin-left: 20px;
+}
+
+
+.footer li a{color:#666;}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
